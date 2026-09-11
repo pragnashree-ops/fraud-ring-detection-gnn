@@ -1,6 +1,8 @@
 streamlit==1.35.0
 numpy<2
 pandas
-torch
-torch_geometric
 scikit-learn
+torch==2.2.0 --index-url https://pytorch.org
+torch-scatter==0.6.18 -f https://pyg.org
+torch-sparse==0.6.18 -f https://pyg.org
+torch-geometric==2.5.0
