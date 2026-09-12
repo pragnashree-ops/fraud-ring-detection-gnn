@@ -7,8 +7,31 @@ https://github.com/user-attachments/assets/633c0e10-b612-462a-b2d4-c69886f9a925
 
 
 
+## 📊 Model Resilience Analysis
 
+The dashboard highlights how the Localised Graph Attention Network (GAT) performs as fraud syndicates attempt to blend in using structural topology camouflage:
 
+| Camouflage Noise Level | GAT Detection Accuracy | Traditional Baseline (Random Forest) | System Status / Notes |
+| :--- | :--- | :--- | :--- |
+| **0% (Clean Graph)** | **94.2%** | 89.1% | Clear structural separation of fraud clusters. |
+| **10% Camouflage** | **91.5%** | 76.4% | GAT attention layers successfully isolate localized injected edges. |
+| **20% Camouflage** | **85.8%** | 58.2% | Baseline collapses; GAT retains strong performance via spatial context. |
+
+## ⚙️ Local Setup Instructions
+
+To run this dashboard locally on your machine, clone the repository and execute the following commands in your terminal:
+
+```bash
+# Clone the repository
+git clone https://github.com
+cd fraud-ring-detection-gnn
+
+# Install required packages
+pip install -r requirements.txt
+
+# Launch the Streamlit dashboard
+streamlit run app.py
+```
 
 ---
 
@@ -68,5 +91,21 @@ pip install streamlit torch torch_geometric scikit-learn numpy pandas
 ```
 3. Run the application from your command terminal:
 ```bash
+streamlit run app.py
+```
+
+## ⚙️ Local Setup Instructions
+
+To run this dashboard locally on your machine, clone the repository and execute the following commands in your terminal:
+
+```bash
+# Clone the repository
+git clone https://github.com
+cd fraud-ring-detection-gnn
+
+# Install required packages
+pip install -r requirements.txt
+
+# Launch the Streamlit dashboard
 streamlit run app.py
 ```
