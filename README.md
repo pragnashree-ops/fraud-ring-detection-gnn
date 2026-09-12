@@ -17,22 +17,6 @@ The dashboard highlights how the Localised Graph Attention Network (GAT) perform
 | **10% Camouflage** | **91.5%** | 76.4% | GAT attention layers successfully isolate localized injected edges. |
 | **20% Camouflage** | **85.8%** | 58.2% | Baseline collapses; GAT retains strong performance via spatial context. |
 
-## ⚙️ Local Setup Instructions
-
-To run this dashboard locally on your machine, clone the repository and execute the following commands in your terminal:
-
-```bash
-# Clone the repository
-git clone https://github.com
-cd fraud-ring-detection-gnn
-
-# Install required packages
-pip install -r requirements.txt
-
-# Launch the Streamlit dashboard
-streamlit run app.py
-```
-
 ---
 
 ## 🎯 The Core Research Question
