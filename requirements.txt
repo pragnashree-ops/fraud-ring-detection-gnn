@@ -4,5 +4,6 @@ torch-geometric
 networkx
 pandas
 numpy
+scikit-learn
 
 
