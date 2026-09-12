@@ -182,4 +182,4 @@ with col_right:
 
 st.markdown("---")
 st.markdown("### 🔎 Architectural Analysis Dashboard Insight")
-st.success(f"🛡️ Pure-Tensor Message Passing successfully deployed! At **{noise_level}% camouflage**, neighborhood spatial attention down-weights evasion links to isolate hidden rings.")']:.4f}")
+st.success(f"🛡️ Pure-Tensor Message Passing successfully deployed! At **{noise_level}% camouflage**, neighborhood spatial context captured.")
