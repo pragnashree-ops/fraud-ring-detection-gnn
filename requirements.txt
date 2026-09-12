@@ -1,6 +1,8 @@
-streamlit==1.35.0
-numpy<2
+streamlit
+torch
+torch-geometric
+networkx
 pandas
-scikit-learn
-torch==2.2.0 --index-url https://pytorch.org
+numpy
+
 
