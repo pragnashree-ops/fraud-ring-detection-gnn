@@ -2,6 +2,14 @@
 
 An interactive machine learning simulation stress-testing localized **Graph Neural Networks (GNNs)** against traditional tabular baselines (**Random Forest**) under adversarial structural camouflage. 
 
+
+https://github.com/user-attachments/assets/633c0e10-b612-462a-b2d4-c69886f9a925
+
+
+
+
+
+
 ---
 
 ## 🎯 The Core Research Question
